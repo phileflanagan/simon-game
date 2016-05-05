@@ -1,0 +1,64 @@
+body {
+	background-color: #ccc;
+}
+
+.inst {
+	font-size: 20px;
+}
+.gameContainer {
+	width: 600px;
+	background-color: #eee;
+	box-shadow: 0px 0px 20px #aaa;
+}
+
+#instructions {
+	padding: 30px;
+}
+#gameBoard {
+	display:none;
+}
+
+.button {
+	height: 150px;
+	cursor: pointer;
+}
+
+.headline {
+	font-size: 60px;
+}
+
+.footer {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #aaa;
+}
+/*
+green: #35e863
+red: #e83535
+yellow: #e8da35
+blue: #354ee8
+*/
+#b1 {
+	background-color: #35e863;
+}
+
+#b2 {
+	background-color: #e83535;
+}
+
+#b3 {
+	background-color: #e8da35;
+}
+#b4 {
+	background-color: #354ee8;
+}
+
+.optionsRow {
+
+	padding: 20px 0px;
+	background-color: #e3e3e3;
+}
+
+#count {
+	padding-top: 9px;
+}

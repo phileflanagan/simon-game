@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>Simon Game</title>
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container gameContainer inst" id="instructions">
+			<p class="text-center"><strong>You're about to play Simon!</strong></p>
+			<ul>
+				<li>Simply watch (and listen) to the pattern. </li>
+				<li>Then repeat it back by clicking the colored squares.</li>
+				<li>If you beat count 20, you win.</li>
+				<li>Make it more difficult by turning on strict. This will reset your counter if you mess up.</li>
+			</ul>
+			<button class="btn btn-primary btn-lg btn-block" id="startGame">Start the Game</button>
+		</div>
+		<div class="container gameContainer" id="gameBoard">
+			<h1 class="headline text-center"> Simon </h1>
+			<div class="row buttonRow">
+				<div class="col-xs-6 button" id="b1"></div>
+				<div class="col-xs-6 button" id="b2"></div>
+			</div>
+			<div class="row buttonRow">
+				<div class="col-xs-6 button" id="b3"></div>
+				<div class="col-xs-6 button" id="b4"></div>
+			</div>
+			<div class="row optionsRow text-center">
+				<div class="col-xs-4" id="count">Count: <span id="countNum">1</span></div>
+				<div class="col-xs-4"><button class="btn btn-danger btn-block" id="strict">Strict: Off</button></div>
+				<div class="col-xs-4"><button class="btn btn-default btn-block" id="reset">Reset</button></div>
+			</div>
+			<div class="row footer text-center">
+				<p>&copy; Copyright 2016 Phil Flanagan</p>
+			</div>
+		</div>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
